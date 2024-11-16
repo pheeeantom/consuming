@@ -1,0 +1,6 @@
+consuming\node_modules\@reduxjs\toolkit\react\package.json
+./../ -> ./
+
+Не надо писать тег скрипт в индекс хтмл тк итак он добавляется
+
+rtk query кеширует запросы

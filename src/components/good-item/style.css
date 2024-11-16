@@ -1,0 +1,23 @@
+.GoodItem {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    border-top: 1px dotted gray;
+    border-bottom: 1px dotted gray;
+}
+
+.GoodItem img {
+    height: 100px;
+}
+
+@media (max-width: 1200px) {
+    .GoodItem {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .GoodItem span, .GoodItem img, .GoodItem button {
+        margin: 10px;
+    }
+}

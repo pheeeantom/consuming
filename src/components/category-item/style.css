@@ -1,0 +1,8 @@
+.CategoryItem {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.CategoryItem_active {
+    text-decoration: underline;
+}
